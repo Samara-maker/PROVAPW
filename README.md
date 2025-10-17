@@ -1,33 +1,60 @@
-# Prova de Identificação e Correção de Código: Gerenciador de Itens
-
-**Instruções Importantes:**
+Prova de Identificação e Correção de Código: Gerenciador de Itens
+Instruções Importantes:
 
 Nesta prova, você deverá identificar e corrigir erros em um código que implementa um CRUD básico de itens. É permitido consultar materiais de apoio, como apostilas, slides, PDFs, cadernos e recursos online. É proibido comunicar-se com outros alunos ou compartilhar códigos de qualquer forma.
 
 O professor tem plena autonomia para avaliar e aplicar as devidas sanções em caso de descumprimento das regras.
 
----
+Enunciado da Prova:
+Você recebeu um código com diversos bugs e erros que precisam ser corrigidos. O código está localizado na pasta Prova/ e contém os arquivos:
 
-## Enunciado da Prova:
+index.html
+script.js
+styles.css
+Além disso, há um arquivo API.zip na raiz do projeto que contém uma API REST simples para gerenciar os itens. Você deve descompactar este arquivo e executar a API para que o CRUD funcione corretamente.
 
-O código a seguir possui diversos erros que devem ser corrigidos. O objetivo é ajustar o código para que o CRUD funcione corretamente. Você deve identificar e corrigir todos os erros para deixá-lo funcional e próximo de um exemplo real. Analise cada linha e ajuste conforme necessário.
-
-## Como deve ficar: 
+⚠️ Importante sobre a API:
+Descompacte o arquivo API.zip
+A aplicação frontend (pasta Prova/) deve se comunicar com esta API
+Como deve ficar:
+Funcionamento Completo:
 ![Como deve Ficar](https://github.com/Desenvolvimento-WEB-I-2024-2-Ensi-Medio/Prova1/blob/main/Arquivos/Funcional.gif?raw=true)
 
-- Além disso, há uma pasta de nome "Arquivos", onde tem screenshots das telas.
-- A prova será avaliada de acordo com o seu progresso na resolução dos problemas.
----
+Telas de Referência:
+Na pasta Arquivos_Auxiliares/, você encontrará screenshots que mostram como a aplicação deve funcionar:
 
-## Instruções para Responder
+Tela inicial com campo para adicionar novos itens
+Listagem de itens após a adição
+Botões de ação (Editar e Excluir) para cada item
+Modo de edição com campo preenchido e botões "Atualizar Item" e "Cancelar"
+Modal de confirmação ao excluir um item
+Seu código corrigido deve reproduzir exatamente esses fluxos e funcionalidades.
 
-- Analise o código acima e encontre os erros de sintaxe, lógica, inconsistências de nomenclatura e erros de digitação.
-- Corrija cada um dos erros de maneira que o código funcione conforme esperado, implementando o CRUD completo para o gerenciamento de itens.
----
+O que você deve fazer:
+Descompactar e executar a API (API.zip)
+Analisar o código na pasta Prova/ e encontrar os erros de:
+Sintaxe JavaScript/HTML/CSS
+Lógica de programação
+Inconsistências de nomenclatura
+Erros de digitação
+Problemas de integração com a API
+Corrigir todos os bugs para que o código funcione conforme os fluxos mostrados nas imagens
+Testar todas as funcionalidades do CRUD:
+✅ Adicionar itens
+✅ Listar itens
+✅ Editar itens
+✅ Excluir itens (com confirmação)
+✅ Cancelar edição
+Critérios de Avaliação:
+A prova será avaliada de acordo com o seu progresso na resolução dos problemas:
 
-## Instruções para entrega
-- Compacte o arquivo em um zip e envie via AVA ou link do github.
----
-
-
-**Desejo a todos boa prova!**
+Identificação correta dos bugs
+Qualidade das correções aplicadas
+Funcionamento das operações CRUD
+Fidelidade ao layout e fluxos apresentados nas imagens
+Integração correta com a API
+Instruções para Entrega:
+Envie o link do GitHub
+Apnas os 3 arquivos (html, css e js)
+Não envie a API;
+Boa prova a todos! 🚀
